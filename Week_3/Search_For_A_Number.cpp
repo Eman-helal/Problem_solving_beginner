@@ -1,4 +1,3 @@
-
 #include <iostream>
 
 using namespace std;
@@ -15,7 +14,7 @@ int main()
 		cin >> find[j];
 	}
 	for (int k = 0; k < Q;k++) { 
-		for (int l = 0; l < N; l++) {
+		for (int l = N - 1; l > 0; l--) {
 			if (find[k] == nums[l]) {
 				ind[k] = l;
 				break;
