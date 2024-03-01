@@ -55,7 +55,7 @@ int main()
 			max = num;
 		--n;
 	}
-	if (n-1 > 0) {
+	if (n> 0) {
 		cin >> num;
 		if (max < num)
 			max = num;
